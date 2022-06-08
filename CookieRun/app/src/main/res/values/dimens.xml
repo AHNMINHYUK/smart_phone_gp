@@ -9,4 +9,5 @@
     <dimen name="map_gauge_y">40dp</dimen>
     <dimen name="map_gauge_fg_width">5dp</dimen>
     <dimen name="map_gauge_bg_width">10dp</dimen>
+    <dimen name="fire_speed">50dp</dimen>
 </resources>

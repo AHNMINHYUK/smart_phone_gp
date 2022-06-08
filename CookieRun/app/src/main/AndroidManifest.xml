@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cookierun">
+    package="net.scgyong.and.cookierun">
 
     <application
         android:allowBackup="true"
@@ -10,8 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CookieRun">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".app.GameActivity"
+            android:screenOrientation="landscape"
+            android:exported="false" />
+        <activity
+            android:name=".app.MainActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
